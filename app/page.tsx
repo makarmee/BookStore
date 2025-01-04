@@ -1,4 +1,6 @@
+import ForYou from "@/components/ForYou";
 import Hero from "@/components/Hero";
+import News from "@/components/News";
 import Top from "@/components/Top";
 
 export default function Home() {
@@ -6,6 +8,7 @@ export default function Home() {
     <>
       <Hero />
       <Top />
+      <ForYou />
     </>
   );
 }
