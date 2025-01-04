@@ -4,7 +4,7 @@ import Heading from "./shared/Heading";
 
 export default function Hero() {
   return (
-    <section className="flex items-center mt-20 justify-between px-8 sm:px-12">
+    <section className="hidden md:flex items-center mt-20 justify-between px-8 sm:px-12">
       <div className="w-1/2 flex flex-col gap-12 items-start">
         <Heading
           content="New Releases This Week"
