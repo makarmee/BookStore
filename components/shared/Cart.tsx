@@ -18,9 +18,18 @@ export default function Cart({ img, title, des, prices }: CartProps) {
       <div className="flex flex-col gap-4 items-start self-end w-52">
         <p className="line-clamp-1">{title}</p>
         <p className="text-sm line-clamp-2 text-dis">{des}</p>
-        <div className="flex h-10 gap-6">
-          <p>${prices[0].toFixed(2)}</p>
-          <p className="line-through text-dis">${prices[1].toFixed(2)}</p>
+        <div className="flex h-10 gap-6 font-medium">
+          <p>
+            <span className="mr-0.5">$</span>
+            {prices[0].toFixed(2)}
+          </p>
+          <div className="text-dis">
+            <div className="px-1">
+              <span className="mr-0.5">$</span>
+              {prices[1].toFixed(2)}
+            </div>
+            <div className="h-[1px] bg-dis -translate-y-[11px] rounded-full"></div>
+          </div>
         </div>
         <Button
           children={<img src="nav/icon.svg" />}
