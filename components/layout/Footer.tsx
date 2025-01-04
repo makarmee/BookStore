@@ -26,7 +26,7 @@ export default function Footer() {
             <input
               type="text"
               placeholder="Enter your email address"
-              className="w-full border-yellow-400 border-2 rounded-tl-lg rounded-bl-lg pl-6"
+              className="w-full bg-bgc border-gen border-2 rounded-tl-lg rounded-bl-lg pl-6"
             />
             <Button
               name="Subscribe"

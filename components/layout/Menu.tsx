@@ -8,7 +8,7 @@ export default function Menu() {
       <div className="me-16 h-5">
         <img src="nav/menu.svg" className="w-full h-full" />
       </div>
-      <div className="bg-slate-200 rounded-md w-72 flex flex-row py-2 h-9 me-auto">
+      <div className="bg-zinc-200 rounded-md w-72 flex flex-row py-2 h-9 me-auto">
         <img src="nav/search.svg" className="mx-4" />
         <input
           placeholder="What are you looking for ?"

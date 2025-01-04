@@ -15,7 +15,7 @@ export default function Button({
 }: ButtonProps) {
   return (
     <button
-      className={`bg-yellow-400 h-9 text-white px-4 rounded-lg flex items-center ${className}`}
+      className={`bg-gen h-9 text-txd px-4 rounded-lg flex items-center ${className} font-semibold`}
     >
       <span>{children}</span>
       <span className={!nameClass ? "p-6" : nameClass}>{name}</span>

@@ -6,7 +6,7 @@ export default function Top() {
   return (
     <section className="mt-20 px-8 sm:px-12">
       <Heading content="Top Sellers" />
-      <select className="h-9 m-2 mb-5 w-44 px-2 rounded-lg bg-slate-100">
+      <select className="h-9 m-2 mb-5 w-44 px-2 rounded-lg bg-zinc-200">
         <option value="horror">Fiction</option>
         <option value="romance">Romance</option>
         <option value="mystery">Mystery</option>
@@ -33,7 +33,7 @@ export default function Top() {
             prices={[25.89, 27.99]}
           />
         </div>
-        <button className="rounded-full w-9 h-9  bg-white drop-shadow absolute right-1 top-1/2 -translate-y-1/2 z-10">
+        <button className="rounded-full w-9 h-9  bg-bgc drop-shadow absolute right-1 top-1/2 -translate-y-1/2 z-10">
           <img src="arrow.svg" className="mx-auto" />
         </button>
       </section>

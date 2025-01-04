@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function FooterLink() {
   return (
-    <div className="flex justify-between border-t-2 items-center h-16 px-8 sm:px-12">
+    <div className="flex justify-between border-t-2 border-zinc-200 items-center h-16 px-8 sm:px-12">
       <ul className="flex gap-12">
         <Link href="">Privacy Policy</Link>
         <Link href="">Terms of Use</Link>
