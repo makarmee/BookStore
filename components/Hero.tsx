@@ -1,11 +1,15 @@
 import React from "react";
 import Button from "./shared/Button";
+import Heading from "./shared/Heading";
 
 export default function Hero() {
   return (
     <section className="flex items-center mt-20 justify-between px-8 sm:px-12">
       <div className="w-1/2 flex flex-col gap-12 items-start">
-        <h1 className="text-5xl">New Releases This Week</h1>
+        <Heading
+          content="New Releases This Week"
+          className="text-5xl font-sem"
+        />
         <p className="w-3/4">
           It's time to update your reading list with some of the latest and
           greatest releases in the literary world. From heart-pumping thrillers
