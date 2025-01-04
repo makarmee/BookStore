@@ -9,6 +9,7 @@ export default function Home() {
       <Hero />
       <Top />
       <ForYou />
+      <News />
     </>
   );
 }
