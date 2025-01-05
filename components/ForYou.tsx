@@ -4,7 +4,7 @@ import Heading from "./shared/Heading";
 
 export default function ForYou() {
   return (
-    <section className="mt-20 px-8 sm:px-12">
+    <section className="max-sm:mt-10 mt-20 sm:px-8 max-sm:pl-6">
       <Heading content="Recommended for You" />
       <section className="overflow-x-auto relative">
         <div className="flex gap-10 w-fit">
@@ -27,7 +27,7 @@ export default function ForYou() {
             prices={[25.89, 27.99]}
           />
         </div>
-        <button className="rounded-full w-9 h-9  bg-bgc drop-shadow absolute right-1 top-1/2 -translate-y-1/2 z-10">
+        <button className="rounded-full w-9 h-9 max-sm:hidden block bg-bgc drop-shadow absolute right-1 top-1/2 -translate-y-1/2 z-10">
           <img src="arrow.svg" className="mx-auto" />
         </button>
       </section>
