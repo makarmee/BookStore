@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         txt: "#321",
         gen: "#fc0",
+        bgm: "rgb(255,245,240)",
         bgc: "rgb(255,255,250)",
         txd: "#ffe",
         dis: "#987",

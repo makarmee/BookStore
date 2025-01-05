@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} antialiased max-w-screen-xl mx-auto min-h-screen bg-bgc text-txt`}
+        className={`${poppins.variable} antialiased max-w-screen-xl mx-auto min-h-screen max-sm:bg-bgm bg-bgc text-txt`}
       >
         <Header />
         <main>{children}</main>
