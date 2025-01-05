@@ -5,9 +5,9 @@ import Button from "../shared/Button";
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col justify-between gap-40 pt-8 w-full">
-      <div className="flex justify-between px-8 sm:px-12 items-end">
-        <div className="flex flex-col items-start gap-10">
+    <footer className="flex flex-col justify-between gap-40 pt-8 w-full max-sm:p-4 max-sm:bg-[linear-gradient(120deg,#fc0,#FEAF38)]">
+      <div className="flex justify-between sm:px-8 max-sm:px-6 items-end sm:items-center max-sm:hidden flex-col md:flex-row sm:gap-24">
+        <div className="md:flex flex-col items-start gap-10 sm:hidden">
           <img src="logo.svg" className="h-24" />
           <ul className="flex gap-10">
             <Link href="">About</Link>
