@@ -4,7 +4,7 @@ import NewsCart from "./shared/NewsCart";
 
 export default function News() {
   return (
-    <section className="mt-28 mb-32 px-8 sm:px-12">
+    <section className="max-sm:my-10 mt-28 mb-32 sm:px-8 max-sm:pl-6 max-sm:">
       <Heading content="News" />
       <section className="overflow-x-auto relative">
         <div className="flex gap-5 w-fit">
@@ -29,7 +29,7 @@ export default function News() {
             des="Phasellus eu est condimentum, venenatis leo vel, vestibulum massa. Phasellus volutpat lacinia justo ac porttitor. Aliquam erat volutpat. Praesent non rhoncus ligula. Sed blandit, erat quis congue sagittis, ante sapien tristique nibh, vitae aliquam felis libero at ipsum. Quisque vulputate, dui vitae dignissim dapibus, urna est pretium enim, fermentum tempus augue risus nec felis."
           />
         </div>
-        <button className="rounded-full w-9 h-9  bg-bgc drop-shadow absolute right-1 top-1/2 -translate-y-1/2 z-10">
+        <button className="rounded-full w-9 h-9 max-sm:hidden block bg-bgc drop-shadow absolute right-1 top-1/2 -translate-y-1/2 z-10">
           <img src="arrow.svg" className="mx-auto" />
         </button>
       </section>

@@ -9,7 +9,7 @@ interface NewsProps {
 
 export default function NewsCart({ title, des, img }: NewsProps) {
   return (
-    <section className="w-[580px] flex justify-between gap-11 p-5 rounded-xl">
+    <section className="max-sm:w-[490px] w-[580px] flex justify-between gap-11 p-5 rounded-xl bg-bgc items-center">
       <div className="w-fit pl-4">
         <Heading className="text-base" content={title} />
         <div className="h-0.5 w-14 my-5 bg-gen"></div>
