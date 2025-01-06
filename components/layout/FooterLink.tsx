@@ -28,16 +28,16 @@ export default function FooterLink() {
       <ul className="flex gap-12 ">
         <Link href="#">
           <img
-            src="_instagram.svg"
+            src="_Instagram.svg"
             className="h-6 w-6 max-sm:brightness-[100]"
           />
         </Link>
         <Link href="#">
-          <img src="_google.svg" className="h-6 w-6 max-sm:brightness-[100]" />
+          <img src="_Google.svg" className="h-6 w-6 max-sm:brightness-[100]" />
         </Link>
         <Link href="#">
           <img
-            src="_facebook.svg"
+            src="_Facebook.svg"
             className="h-6 w-6 max-sm:brightness-[100]"
           />
         </Link>

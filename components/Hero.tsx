@@ -20,15 +20,15 @@ export default function Hero() {
       </div>
       <div className="relative flex items-center">
         <img
-          src="books-1.png"
+          src="Books-1.png"
           className="w-72 shadow-[0_10px_28px_-16px] shadow-red-900"
         />
         <img
-          src="books-2.png"
+          src="Books-2.png"
           className="w-64  shadow-[0_10px_28px_-16px] shadow-teal-900 -ml-32 -translate-y-2 -z-10"
         />
         <img
-          src="books-3.png"
+          src="Books-3.png"
           className="w-56 shadow-[0_10px_28px_-16px] shadow-sky-900 -ml-28 -translate-y-2 -z-20"
         />
       </div>
