@@ -22,7 +22,11 @@ export default function Menu() {
       <Link href="" className="h-5 min-w-5 max-sm:hidden">
         <img src="nav/favorite.svg" className="w-full h-full" />
       </Link>
-      <Button className="border-none" children={<Basket />} name="Basket" />
+      <Button
+        className="max-sm:circle square"
+        icon={<Basket />}
+        name="Basket"
+      />
     </nav>
   );
 }

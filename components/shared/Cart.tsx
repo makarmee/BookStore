@@ -1,5 +1,4 @@
 "use client";
-import { list } from "postcss";
 import React, { useState } from "react";
 import Button from "./Button";
 import { Basket, Fav } from "@/icons";
@@ -37,15 +36,16 @@ export default function Cart({ img, title, des, prices }: CartProps) {
           </div>
         </div>
         <div className="flex gap-2.5">
-          <Button children={<Basket />} name="Add to Basket" px="px-2" />
+          <Button
+            icon={<Basket />}
+            className="max-sm:circle square border-[1px]"
+            name="Add to Basket"
+          />
           <Button
             onClick={() => setIsFav(!isFav)}
-            px="px-0"
-            className="h-9 w-9 max-sm:inline-flex hidden"
-            children={
+            className="max-sm:circle square border-[1px] max-sm:flex hidden"
+            icon={
               <Fav
-                // fill="#3217"
-                // line="transparent"
                 className={
                   !isFav ? "scale-90 fill-[#3217]" : "scale-100 fill-current"
                 }

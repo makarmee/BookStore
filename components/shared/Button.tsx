@@ -1,24 +1,25 @@
 import React from "react";
 
 interface ButtonProps {
-  children?: React.ReactNode;
-  name: string;
+  icon?: React.ReactNode;
+  name?: string;
   className?: string;
-  nameClass?: string;
+  onClick?: any;
 }
 
 export default function Button({
-  children,
+  icon,
   name,
   className,
-  nameClass,
+  onClick,
 }: ButtonProps) {
   return (
     <button
-      className={`bg-gen h-9 text-txd px-4 rounded-lg flex items-center ${className} font-semibold`}
+      onClick={onClick}
+      className={`flex items-center justify-center font-semibold ${className} p-2 px-4 h-9`}
     >
-      <span>{children}</span>
-      <span className={!nameClass ? "p-6" : nameClass}>{name}</span>
+      <span className="max-sm:text-txt text-bgc max-w-9 max-h-9">{icon}</span>
+      <span className={`hidden sm:flex px-2`}>{name}</span>
     </button>
   );
 }

@@ -30,7 +30,7 @@ export default function Footer() {
             />
             <Button
               name="Subscribe"
-              className="rounded-tl-none rounded-bl-none"
+              className="rounded-tl-none rounded-bl-none square"
             />
           </div>
         </div>
