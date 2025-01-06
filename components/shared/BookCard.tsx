@@ -1,36 +1,32 @@
 "use client";
+
 import React, { useState } from "react";
 import Button from "./Button";
 import { Basket, Fav } from "@/icons";
+import { BookProps } from "@/types";
 
-interface CartProps {
-  img: string;
-  title: string;
-  des: string;
-  prices: any;
-}
-
-export default function Cart({ img, title, des, prices }: CartProps) {
+export default function BookCard({ book }: { book: BookProps }) {
   const [isFav, setIsFav] = useState(false);
+
   return (
     <div className="w-[28rem] h-72 p-4 rounded-lg flex justify-between max-sm:gap-6 bg-bgc">
       <div className="h-full">
-        <img src={img + ".png"} className="h-full min-w-fit rounded-md" />
+        <img src={book?.cover} className="h-full min-w-fit rounded-md" />
       </div>
       <div className="flex flex-col max-sm:gap-2 gap-4 items-start justify self-end w-52">
-        <p className="line-clamp-1">{title}</p>
+        <p className="line-clamp-1">{book?.name}</p>
         <p className="text-sm max-sm:line-clamp-3 line-clamp-2 text-dis">
-          {des}
+          {book?.description}
         </p>
         <div className="flex h-10 gap-6 font-medium">
           <p>
             <span className="mr-0.5">$</span>
-            {prices[0].toFixed(2)}
+            {book?.price.toFixed(2)}
           </p>
           <div className="text-dis max-sm:hidden block">
             <div className="px-1">
               <span className="mr-0.5">$</span>
-              {prices[1].toFixed(2)}
+              {book?.offer_price.toFixed(2)}
             </div>
             <div className="h-[1px] bg-dis -translate-y-[11px] rounded-full"></div>
           </div>
