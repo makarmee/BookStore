@@ -9,7 +9,7 @@ export const news = [
   {
     id: 2,
     img: "news-2.png",
-    title: "February's Best Children's Books",
+    title: "February Best Children Books",
     description:
       "Praesent tempor fringilla dui, eget ultrices ante tempus lacinia. Nulla bibendum erat vel porta fringilla. Sed tortor lacus, pellentesque eu lacinia nec, posuere at nisl. Aliquam erat volutpat. Aliquam urna nulla, lacinia accumsan imperdiet eget, tempus sed sem. Sed ornare enim nulla, eget auctor ante tristique at.",
   },

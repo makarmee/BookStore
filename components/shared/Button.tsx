@@ -4,7 +4,7 @@ interface ButtonProps {
   icon?: React.ReactNode;
   name?: string;
   className?: string;
-  onClick?: any;
+  onClick?: () => void;
 }
 
 export default function Button({

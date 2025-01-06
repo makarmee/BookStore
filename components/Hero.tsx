@@ -11,10 +11,10 @@ export default function Hero() {
           className="text-5xl font-sem"
         />
         <p className="w-3/4">
-          It's time to update your reading list with some of the latest and
+          It is time to update your reading list with some of the latest and
           greatest releases in the literary world. From heart-pumping thrillers
-          to captivating memoirs, this week's new releases offer something for
-          everyone
+          to captivating memoirs, this week&apos;s new releases offer something
+          for everyone
         </p>
         <Button name="Subscribe" />
       </div>
