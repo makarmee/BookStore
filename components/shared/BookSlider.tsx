@@ -9,6 +9,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import BookCard from "./BookCard";
 import { BookProps } from "@/types";
+import SliderBtns from "./SliderBtns";
+
 export default function BooksSlider({
   books,
   sectionName,
@@ -18,6 +20,8 @@ export default function BooksSlider({
 }) {
   return (
     <div className="relative">
+      <SliderBtns prev={"prevEl" + sectionName} next={"nextEl" + sectionName} />
+
       <Swiper
         navigation={{
           prevEl: ".prevEl" + sectionName,
