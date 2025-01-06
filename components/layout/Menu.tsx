@@ -16,10 +16,10 @@ export default function Menu() {
           className="bg-transparent w-full"
         />
       </div>
-      <Link href="" className="h-5 min-w-5 max-sm:hidden">
+      <Link href="#" className="h-5 min-w-5 max-sm:hidden">
         <img src="nav/account.svg" className="w-full h-full" />
       </Link>
-      <Link href="" className="h-5 min-w-5 max-sm:hidden">
+      <Link href="#" className="h-5 min-w-5 max-sm:hidden">
         <img src="nav/favorite.svg" className="w-full h-full" />
       </Link>
       <Button

@@ -10,11 +10,11 @@ export default function Footer() {
         <div className="md:flex flex-col items-start gap-10 sm:hidden">
           <img src="logo.svg" className="h-24" />
           <ul className="flex gap-10">
-            <Link href="">About</Link>
-            <Link href="">Features</Link>
-            <Link href="">Pricing</Link>
-            <Link href="">Gallery</Link>
-            <Link href="">Team</Link>
+            <Link href="#">About</Link>
+            <Link href="#">Features</Link>
+            <Link href="#">Pricing</Link>
+            <Link href="#">Gallery</Link>
+            <Link href="#">Team</Link>
           </ul>
         </div>
         <div className="max-w-[28rem] h-28 flex flex-col justify-between">
