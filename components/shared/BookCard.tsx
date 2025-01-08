@@ -7,6 +7,7 @@ import { BookProps } from "@/types";
 
 export default function BookCard({ book }: { book: BookProps }) {
   const [isFav, setIsFav] = useState(false);
+  const [isBought, setIsBought] = useState(false);
 
   return (
     <div className="w-[28rem] h-72 p-4 rounded-lg flex justify-between max-sm:gap-6 bg-bgc">
@@ -33,13 +34,18 @@ export default function BookCard({ book }: { book: BookProps }) {
         </div>
         <div className="flex gap-2.5">
           <Button
+            onClick={() => setIsBought(!isBought)}
             icon={<Basket />}
-            className="max-sm:circle square border-[1px]"
+            className={`${
+              !isBought ? "max-sm:circle" : "max-sm:circleClicked"
+            } square border-[1px]`}
             name="Add to Basket"
           />
           <Button
             onClick={() => setIsFav(!isFav)}
-            className="max-sm:circle square border-[1px] max-sm:flex hidden"
+            className={`${
+              !isFav ? "max-sm:circle" : "max-sm:circleClicked"
+            } square border-[1px] max-sm:flex hidden`}
             icon={
               <Fav
                 className={

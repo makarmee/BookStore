@@ -11,6 +11,9 @@
   .circle {
     @apply bg-bgc rounded-full p-5 w-9;
   }
+  .circleClicked {
+    @apply bg-gen rounded-full p-5 w-9;
+  }
   .square {
     @apply bg-gen text-txd px-4 rounded-lg h-9;
   }

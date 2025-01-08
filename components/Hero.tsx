@@ -16,7 +16,7 @@ export default function Hero() {
           to captivating memoirs, this week&apos;s new releases offer something
           for everyone
         </p>
-        <Button name="Subscribe" />
+        <Button className="square" name="Subscribe" />
       </div>
       <div className="relative flex items-center">
         <img
