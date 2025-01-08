@@ -3,10 +3,8 @@
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-
 import { Autoplay, Keyboard, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import BookCard from "./BookCard";
 import { BookProps } from "@/types";
 import SliderBtns from "./SliderBtns";
@@ -21,7 +19,6 @@ export default function BooksSlider({
   return (
     <div className="relative">
       <SliderBtns prev={"prevEl" + sectionName} next={"nextEl" + sectionName} />
-
       <Swiper
         navigation={{
           prevEl: ".prevEl" + sectionName,

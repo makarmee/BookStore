@@ -4,6 +4,7 @@ interface HeadingProps {
   content: string;
   className?: string;
 }
+
 export default function Heading({ content, className }: HeadingProps) {
   return (
     <h1
