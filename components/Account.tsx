@@ -12,7 +12,7 @@ export default function Account() {
         voluptates laborum sint harum molestias quidem cumque illum doloribus
         quasi. Alias, iusto magnam.
       </p>
-      <Button name="Get Now!" className="square" />
+      <Button name="Get Now!" className="square vis mx-auto my-6" />
       <div className="w-full max-h-fit mb-[-12%] pb-1 scale-110">
         <img src="library.svg" className="w-full" />
       </div>
