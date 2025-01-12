@@ -43,16 +43,8 @@ export default function BookCard({ book }: { book: BookProps }) {
           />
           <Button
             onClick={() => setIsFav(!isFav)}
-            className={`${
-              !isFav ? "max-sm:circle" : "max-sm:circleClicked"
-            } square border-[1px] max-sm:flex hidden`}
-            icon={
-              <Fav
-                className={
-                  !isFav ? "scale-90 fill-[#3217]" : "scale-100 fill-current"
-                }
-              />
-            }
+            className="max-sm:circle square border-[1px] max-sm:flex hidden"
+            icon={<Fav className={!isFav ? "fill-txt" : "fill-fav"} />}
             name=""
           />
         </div>
